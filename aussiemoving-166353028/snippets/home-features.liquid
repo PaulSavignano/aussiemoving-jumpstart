@@ -26,13 +26,12 @@
 
 	<div class="home-features">
 
-		<h2 class="home-section-title">{{ 'homepage.titles.features' | t }}</h2>
 
 		<ul class="features-list grid grid-margins">
 
 			{% unless settings.home-features-1-title == blank %}
 				<li class="{{ grid_class }}">
-					<i class="fa fa-{{ settings.home-features-1-icon }} fa-3x"></i>
+					<a href="/pages/residential"><i class="fa fa-{{ settings.home-features-1-icon }} fa-3x"></i></a>
 					<h3 class="h4">{{ settings.home-features-1-title }}</h3>
 					<p>{{ settings.home-features-1-content }}</p>
 				</li>
@@ -40,11 +39,12 @@
 
 			{% unless settings.home-features-2-title == blank %}
 				<li class="{{ grid_class }}">
-					<i class="fa fa-{{ settings.home-features-2-icon }} fa-3x"></i>
+					<a href="/pages/commercial"><i class="fa fa-{{ settings.home-features-2-icon }} fa-3x"></i></a>
 					<h3 class="h4">{{ settings.home-features-2-title }}</h3>
 					<p>{{ settings.home-features-2-content }}</p>
 				</li>
 			{% endunless %}
+
 
 			{% if cols == 5 %}
 				{% assign grid_class = 'grid__item one-third small--one-whole small--text-center' %}
@@ -52,7 +52,7 @@
 
 			{% unless settings.home-features-3-title == blank %}
 				<li class="{{ grid_class }}">
-					<i class="fa fa-{{ settings.home-features-3-icon }} fa-3x"></i>
+					<a href="/pages/storage"><i class="fa fa-{{ settings.home-features-3-icon }} fa-3x"></i></a>
 					<h3 class="h4">{{ settings.home-features-3-title }}</h3>
 					<p>{{ settings.home-features-3-content }}</p>
 				</li>

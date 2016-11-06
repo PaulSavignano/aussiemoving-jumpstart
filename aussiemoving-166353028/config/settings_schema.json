@@ -486,6 +486,10 @@
             "label": "None"
           },
           {
+            "value": "home-videobox",
+            "label": "Video and text"
+          },
+          {
             "value": "home-imagebox",
             "label": "Image and text"
           },
@@ -534,6 +538,10 @@
           {
             "value": "home-none",
             "label": "None"
+          },
+          {
+            "value": "home-videobox",
+            "label": "Video and text"
           },
           {
             "value": "home-imagebox",
@@ -586,6 +594,10 @@
             "label": "None"
           },
           {
+            "value": "home-videobox",
+            "label": "Video and text"
+          },
+          {
             "value": "home-imagebox",
             "label": "Image and text"
           },
@@ -634,6 +646,10 @@
           {
             "value": "home-none",
             "label": "None"
+          },
+          {
+            "value": "home-videobox",
+            "label": "Video and text"
           },
           {
             "value": "home-imagebox",
@@ -686,6 +702,10 @@
             "label": "None"
           },
           {
+            "value": "home-videobox",
+            "label": "Video and text"
+          },
+          {
             "value": "home-imagebox",
             "label": "Image and text"
           },
@@ -734,6 +754,10 @@
           {
             "value": "home-none",
             "label": "None"
+          },
+          {
+            "value": "home-videobox",
+            "label": "Video and text"
           },
           {
             "value": "home-imagebox",
@@ -786,6 +810,10 @@
             "label": "None"
           },
           {
+            "value": "home-videobox",
+            "label": "Video and text"
+          },
+          {
             "value": "home-imagebox",
             "label": "Image and text"
           },
@@ -836,6 +864,10 @@
             "label": "None"
           },
           {
+            "value": "home-videobox",
+            "label": "Video and text"
+          },
+          {
             "value": "home-imagebox",
             "label": "Image and text"
           },
@@ -884,6 +916,10 @@
           {
             "value": "home-none",
             "label": "None"
+          },
+          {
+            "value": "home-videobox",
+            "label": "Video and text"
           },
           {
             "value": "home-imagebox",
@@ -969,6 +1005,112 @@
       }
     ]
   },
+
+
+
+  {
+    "name": "Home page - video and text",
+    "settings": [
+      {
+        "type": "header",
+        "content": "First section"
+      },
+      {
+        "type": "text",
+        "id": "home-video-text-code1",
+        "label": "YouTube or Vimeo link"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-1-title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "home-featured-video-text-1-content",
+        "label": "Content",
+        "info": "Use basic HTML to format text"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-1-btn-label",
+        "label": "Button label"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-1-btn-url",
+        "label": "Button URL"
+      },
+      {
+        "type": "select",
+        "id": "home-featured-video-text-1-align",
+        "label": "Alignment",
+        "options": [
+          {
+            "value": "left-video",
+            "label": "Video on the left"
+          },
+          {
+            "value": "right-video",
+            "label": "Video on the right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Second section"
+      },
+      {
+        "type": "paragraph",
+        "content": "This is optional."
+      },
+      {
+        "type": "text",
+        "id": "home-video-text-code2",
+        "label": "YouTube or Vimeo link"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-2-title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "home-featured-video-text-2-content",
+        "label": "Content",
+        "info": "Use basic HTML to format text"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-2-btn-label",
+        "label": "Button label"
+      },
+      {
+        "type": "text",
+        "id": "home-featured-video-text-2-btn-url",
+        "label": "Button URL"
+      },
+      {
+        "type": "select",
+        "id": "home-featured-video-text-2-align",
+        "label": "Alignment",
+        "options": [
+          {
+            "value": "left-video",
+            "label": "Video on the left"
+          },
+          {
+            "value": "right-video",
+            "label": "Video on the right"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
   {
     "name": "Home page - image and text",
     "settings": [

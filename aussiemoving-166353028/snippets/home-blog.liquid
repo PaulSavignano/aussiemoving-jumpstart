@@ -3,7 +3,6 @@
 
 		{% if blogs[settings.home-blog-select] != blank %}
 
-			<h2 class="home-section-title">{{ blogs[settings.home-blog-select].title }}</h2>
 
 			{% paginate blogs[settings.home-blog-select].articles by 3 %}
 
